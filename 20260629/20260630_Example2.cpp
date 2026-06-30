@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;	
 void swap(int &a,int &b);
 
 int main(void)
 {
 	int x = 10;
 	int y = 20;
-	std::cout << "Before swap: x=" << x << ", y=" << y << std::endl;
+	cout << "Before swap: x=" << x << ", y=" << y << std::endl;
 	swap(x, y);
-	std::cout << "After swap: x=" << x << ", y=" << y << std::endl;
+	cout << "After swap: x=" << x << ", y=" << y << std::endl;
 	return 0;
 }
 
